@@ -1,0 +1,131 @@
+
+/* body{ background-color:rgba(255, 144, 14, .1);
+   } */
+
+
+
+/* nav bar style */
+.container{
+background-color:rgba(255, 144, 14, .1);
+gap: 30px;
+}
+.navbar{
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+      font-family: "Work Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-size: 45px;
+}
+.pages a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+
+    display: inline-block;
+}
+li a{
+    color: #424242;
+    font-size: 18;
+    margin-right: 25px;
+    list-style: none;
+
+}
+
+
+
+
+/* Body */
+
+.title{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.tittle-txt{
+    text-align: center;
+    padding: 20px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+}
+.tittle-txt h1{
+    font-size: 64px;
+    font-weight: bold;
+
+}
+.tittle-txt p{
+    font-size: 16;
+}
+.banner{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn{
+    background-color: #FF900E;
+    width: 160px;
+    height: 64px;
+    color: white;
+    border: none;
+    font-size: 20;
+    border-radius: 8px;
+    text-align: center;
+    padding: 25px;
+}
+
+/* container 2 */
+
+.container-2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    /* margin-top: 40px; */
+    gap: 30px;
+    top: 30px;
+}
+.list-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 15px;
+    gap: 30px;
+}
+.list-txt{
+    display: grid;
+    justify-content: center;
+    align-items:center ;
+    align-content: center;
+    padding: 15px;
+    font-family: "Work Sans", sans-serif;
+
+}
+.list-txt h2{
+    font-size: 45px;
+    color: #FF900E;
+}
+.color-1{
+    color: rgba(66, 66, 66, .3);
+}
+.color-2{
+    color: black;
+}
