@@ -14,9 +14,7 @@ gap: 30px;
     list-style: none;
     padding: 15px;
     font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+
 }
 .navdiv{
     display: flex;
@@ -25,9 +23,6 @@ gap: 30px;
 }
 .logo{
       font-family: "Work Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
       font-size: 45px;
 }
 .pages a{
@@ -62,9 +57,7 @@ li a{
     text-align: center;
     padding: 20px;
     font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
+
 }
 .tittle-txt h1{
     font-size: 64px;
@@ -99,7 +92,9 @@ li a{
     background-color: white;
     display: flex;
     justify-content: center;
-    padding: 80px;
+    padding: 200px;
+    margin-bottom: 40px;
+
     /* margin-top: 40px; */
     gap: 30px;
     top: 30px;
@@ -128,4 +123,176 @@ li a{
 }
 .color-2{
     color: black;
+}
+
+/* arch */
+
+.arch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+
+}
+
+
+.arch-description{
+    font-family: "Work Sans", sans-serif;
+    display: grid;
+    justify-content: center;
+
+}
+.arch-title{
+    display: flex;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-size:35px;
+    gap: 30px;
+
+
+}
+.line{
+    width: 5px;
+    height: 106px;
+    background-color: #FF900E;
+}
+.arch-description p{
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    color: #424242;
+}
+.boxes{
+text-align: left;    
+row-gap: 15px;
+display: grid;    
+    
+}
+.box{
+    font-family: "Work Sans", sans-serif;
+    width: 586px;
+    height: 171px ;
+    border: none;
+    padding: 13px;
+    gap: 30px;
+    border-radius: 8px;
+    background-color: white;
+    filter: drop-shadow(5px 15px 15px rgba(0, 0, 0, .1));
+}
+.arch-image{
+    display: grid;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.img-btn{
+    border: none;
+    height: 200px;
+    width: 342px;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+/* facts */
+
+.facts{
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.facts-txt{
+    font-family: "Work Sans", sans-serif;
+
+}
+.facts-txt h1{
+    font-size: 45px;
+}
+.facts-txt p{
+    font-size: 16px;
+    color: #727272;
+}
+.facts-icon{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+}
+.facts img{
+    margin-left: 90px;
+    width: 25%;
+
+}
+.rect{
+    display: grid;
+    /* justify-content: center; */
+    text-align: center;
+    width: 241.83px;
+    height: 241.83px;
+    padding: 50px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    font-family: "Work Sans", sans-serif;
+
+}
+.rect h1{
+    font-family: "Work Sans", sans-serif;
+    font-size: 45px;
+}
+.p{
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #727272;    
+}
+
+/* Sponsors */
+
+.sponsors-txt{
+    font-family: "Work Sans", sans-serif;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: 80px;
+
+}
+.sponsors-txt h1{
+    font-size: 45px;
+}
+
+.sponsors-txt p{
+    font-size: 16px;
+    color: #727272;
+}
+
+.sponsor-icons{
+    display: flex;
+    justify-content: center;
+    gap: 150PX;
+    filter: grayscale(100%);
+}
+.ftr{
+    display: grid;
+    justify-content: center;
+    margin-top: 150px;
+    border-radius: 8px;
+    margin-bottom: 180px;
+}
+.footer{
+    width: 1440px;
+    height: 100px;
+    background-color: #FFF4E7;
+    color: #727272;
+
+}
+.footer p{
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 30px
 }
